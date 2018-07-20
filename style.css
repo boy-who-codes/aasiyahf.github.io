@@ -2,12 +2,126 @@
   border-radius: 50%;
   padding: 10px;
 }
-.descrip-text {
-  text-align: center;
+
+.jumbotron {
+  background-color: black;
 }
-.link {
-  color: red;
+
+#header {
+  color: white;
+  margin-left: 15px;
 }
+
+#linkHeader {
+  color: darkred;
+}
+
+#firstSlide {
+  content: "HELLO";
+  color: white;
+  font-family: cursive;
+}
+
+#linkTxt {
+  color: black;
+}
+
+#linkTxt:hover {
+  color: black;
+}
+
 .active {
-  color: red;
+  color: #ce0000;
+  font-size: 18px;
+}
+
+.active:hover {
+  color: darkred;
+}
+
+.disabled {
+  color: grey !important;
+  font-size: 18px;
+}
+
+#link {
+  text-decoration: none;
+}
+
+/* Container holding the image and the text */
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+#leftPointer, #rightPointer {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+}
+
+#leftPointer:after {
+  content: '<';
+  font-size: 55px;
+  color: grey;
+}
+
+#rightPointer:after {
+  content: '>';
+  font-size: 55px;
+  color: grey;
+}
+
+/* Centered text */
+#centeredApp {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 5vw;
+    color: black;
+}
+
+/* Centered text */
+#centeredAppLowerL {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 2.5vw;
+}
+
+#centeredAppLowerR {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 2.5vw;
+}
+
+#link {
+  text-decoration: none;
+  color: #ce0000;
+}
+
+/* Centered text */
+#centeredLang {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+body {
+  background-color: black;
 }
