@@ -121,7 +121,17 @@
     font-size: 30px;
     color: black;
 }
+#profPic {
+  display: block;
+  height: auto;
+  border: 6px solid black;
+}
+
+#paddedHR {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 body {
-  background-color: black;
+  background-color: white;
 }
